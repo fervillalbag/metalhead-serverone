@@ -1,0 +1,23 @@
+{
+  "name": "serverone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Fernando Villalba",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js --exec babel-node"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2",
+    "mongoose": "^6.1.5",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.7",
+    "@babel/core": "^7.16.7",
+    "@babel/node": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "nodemon": "^2.0.15"
+  }
+}
